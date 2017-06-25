@@ -80,7 +80,7 @@ Was:
 _**`a CRC error`**_
 
 
-### This leads as that:
+### This leads as to that:
 * The _**`data`**_ is a 82-binary string.
 * The _**`crc_82_darc(data)`**_ is equal to _**`int(data, 2)`**_: That means, the _**`crc_82_darc(data in binary)`**_ is equal to the _**`data`**_ converted to an integer. ==> We are looking for an integer _**`x`**_, that: _**`crc_82_darc(toBinary(x)) == x`**_
 
