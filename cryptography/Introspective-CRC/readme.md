@@ -110,4 +110,4 @@ for x in range(start, end+1):
         print ("crc_82_darc("+xInBin+") == "+str(xCRC))
 ```
 
-### _**`The solution is to find fast way to resolve this equation: crc_82_darc(toBinary(x)) == x`**_
+### _**`The solution is to find a fast way to resolve this equation: crc_82_darc(toBinary(x)) == x`**_
