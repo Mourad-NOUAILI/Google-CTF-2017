@@ -121,3 +121,12 @@ After a long time of research, I found that, in general, the the CRC function is
 ### The formula
 ![formula1](/cryptography/Introspective-CRC/images/f1.png)
 ![formula1](/cryptography/Introspective-CRC/images/f2.png)
+
+We have: (V-I) X = Z.
+To resolve it, we have multiple approches. Like the [Gaussian elimination](https://en.wikipedia.org/wiki/Gaussian_elimination).
+For me, I used the [sageMath](http://www.sagemath.org/) tool + python script to resolve (V-I) X = Z.
+
+###Steps
+1. Item 1 Compute the 82-vector _**`Z`**_: toBinary(crc_82_darc('0' * 82))
+1. Item 2 Compute the 82x82-matrix _**`V`**_
+1. Item 3 Compute the 82x82-matrix _**`(V-I)`**_
