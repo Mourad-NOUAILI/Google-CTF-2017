@@ -119,4 +119,4 @@ Let's denote that: crc_82_darc(x) = f(x)
 After a long time of research, I found that in general the the CRC function is linear.
 
 ### The formula
-![formula1](/Google-CTF-2017/cryptography/Introspective-CRC/images/f1.png)
+![formula1](/cryptography/Introspective-CRC/images/f1.png)
