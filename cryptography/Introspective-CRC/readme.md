@@ -112,11 +112,11 @@ for x in range(start, end+1):
 
 ### _**`The solution is to find a fast way to resolve this equation: crc_82_darc(toBinary(x)) == x`**_
 
-To resolve tins challenge, we have to do some linear Algebra ;)
+To resolve this challenge, we have to do some linear Algebra ;)
 
 # Linear Algebra: Linearity of the CRC function
-Let's denote that: crc_82_darc(x) = f(x)
-After a long time of research, I found that, in general, the the CRC function is linear.
+Let's denote that: **_`crc_82_darc(x) = f(x)`**_
+After a long time of research, I found that in general the the CRC function is linear.
 
 ### The formula
 ![formula1](/cryptography/Introspective-CRC/images/f1.png)
@@ -140,7 +140,7 @@ For me, I used the [sageMath](http://www.sagemath.org/) tool + python script to 
 * Item 3 https://github.com/glua-team-ctf/googlectf-quals-2017/blob/master/crypto/introspective-crc/README.md
 
 # Used tools
-* Item 1 https://www.mathsisfun.com/binary-decimal-hexadecimal-converter.html - automatic!
+* Item 1 https://www.mathsisfun.com/binary-decimal-hexadecimal-converter.html
 * Item 2 sage: http://www.sagemath.org/
 * Item 3 the pwntools module:
     * Item 3a for python2: (http://docs.pwntools.com/en/stable/install.html)
