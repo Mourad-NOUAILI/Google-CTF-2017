@@ -122,11 +122,26 @@ After a long time of research, I found that, in general, the the CRC function is
 ![formula1](/cryptography/Introspective-CRC/images/f1.png)
 ![formula1](/cryptography/Introspective-CRC/images/f2.png)
 
-We have: (V-I) X = Z.
+We have: _**`(V-I) X = Z`**_.
 To resolve it, we have multiple approches. Like the [Gaussian elimination](https://en.wikipedia.org/wiki/Gaussian_elimination).
 For me, I used the [sageMath](http://www.sagemath.org/) tool + python script to resolve (V-I) X = Z.
 
-###Steps
+### Steps
 1. Item 1 Compute the 82-vector _**`Z`**_: toBinary(crc_82_darc('0' * 82))
 1. Item 2 Compute the 82x82-matrix _**`V`**_
 1. Item 3 Compute the 82x82-matrix _**`(V-I)`**_
+(We can do step #2 and #3 in one step)
+1. Item 4 Resolve the system: _**`(V-I) X = Z`**_
+1. Item 5 Send the solution to _**`selfhash.ctfcompetition.com:1337`**_
+
+# References
+* Item 1 https://crypto.stackexchange.com/questions/34011/why-is-crc-said-to-be-linear
+* Item 2 https://www.cosc.canterbury.ac.nz/greg.ewing/essays/CRC-Reverse-Engineering.html
+* Item 3 https://github.com/glua-team-ctf/googlectf-quals-2017/blob/master/crypto/introspective-crc/README.md
+
+# Used tools
+* Item 1 https://www.mathsisfun.com/binary-decimal-hexadecimal-converter.html - automatic!
+* Item 2 sage: http://www.sagemath.org/
+* Item 3 the pwntools module:
+    * Item 3a for python2: (http://docs.pwntools.com/en/stable/install.html)
+    * Item 3b for python3: (http://python3-pwntools.readthedocs.io/en/latest/install.html)
