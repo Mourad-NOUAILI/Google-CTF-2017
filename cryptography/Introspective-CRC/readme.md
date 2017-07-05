@@ -148,7 +148,7 @@ For me, I used the [sageMath](http://www.sagemath.org/) tool + python script to 
         * Open the runnable sage file: `$ sudo gedit /usr/local/bin/sage`
         * In the runnable sage file, update the SAGE_ROOT environment variable: `export SAGE_ROOT="<your sageMath path>"`
         * Test it: `$ sage`
-    * To run a python2 script using sageMath: `$ sage -python script.py`
+    * To run a python2 script (python3 not supported until 05 July 2017) using sageMath: `$ sage -python script.py`
     * If a module is missing in sageMath:
         * Download it
         * Run within the module's directory: `$ sage --python setup.py install`
