@@ -3,7 +3,7 @@ _**`Greets to Gynvael`**_
 
 Streams: almost every Wednesday 8pm CEST ||| Archive: https://www.youtube.com/user/GynvaelEN/ ||| http://gynvael.coldwind.pl/ * http://twitter.com/gynvael
 
-[#gynvaelstream-en] An official IRC channel on freenodenet for Gynvael's livestreams (English version) - http://gynvael.coldwind.pl/live-
+[#gynvaelstream-en] An official IRC channel on freenode.net for Gynvael's livestreams (English version) - http://gynvael.coldwind.pl/live-
 
 * ### Cryptography
   * #### [Crypto Backdoor]
