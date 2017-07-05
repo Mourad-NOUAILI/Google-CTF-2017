@@ -116,7 +116,8 @@ To resolve tins challenge, we have to do some linear Algebra ;)
 
 # Linear Algebra: Linearity of the CRC function
 Let's denote that: crc_82_darc(x) = f(x)
-After a long time of research, I found that in general the the CRC function is linear.
+After a long time of research, I found that, in general, the the CRC function is linear.
 
 ### The formula
 ![formula1](/cryptography/Introspective-CRC/images/f1.png)
+![formula1](/cryptography/Introspective-CRC/images/f2.png)
