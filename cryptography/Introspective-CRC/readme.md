@@ -142,6 +142,16 @@ For me, I used the [sageMath](http://www.sagemath.org/) tool + python script to 
 # Used tools
 * https://www.mathsisfun.com/binary-decimal-hexadecimal-converter.html
 * sage: http://www.sagemath.org/
+    * Download sageMath
+    * In a terminal run (Ubuntu 16.04):
+        * Copy the runnable sage file in /usr/local/bin: `$ sudo cp sage /usr/local/bin/`
+        * Open the runnable sage file: `$ sudo gedit /usr/local/bin/sage`
+        * In the runnable sage file, update the SAGE_ROOT environment variable: `export SAGE_ROOT="<your sageMath path>"`
+        * Test it: `$ sage`
+    * To run a python2 script using sageMath: `$ sage -python script.py`
+    * If a module is missing in sageMath:
+        * Download it
+        * Run within the module's directory: `$ sage --python setup.py install`
 * the pwntools module:
-    * for python2: (http://docs.pwntools.com/en/stable/install.html)
-    * for python3: (http://python3-pwntools.readthedocs.io/en/latest/install.html)
+    * for python2: http://docs.pwntools.com/en/stable/install.html
+    * for python3: http://python3-pwntools.readthedocs.io/en/latest/install.html
