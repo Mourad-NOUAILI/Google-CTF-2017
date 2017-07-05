@@ -111,3 +111,12 @@ for x in range(start, end+1):
 ```
 
 ### _**`The solution is to find a fast way to resolve this equation: crc_82_darc(toBinary(x)) == x`**_
+
+To resolve tins challenge, we have to do some linear Algebra ;)
+
+# Linear Algebra: Linearity of the CRC function
+Let's denote that: crc_82_darc(x) = f(x)
+After a long time of research, I found that in general the the CRC function is linear.
+
+### The formula
+![formula1](/Google-CTF-2017/cryptography/Introspective-CRC/images/f1.png)
